@@ -21,7 +21,7 @@ function createTable(dataList){
 	/* 创建表头 */
 	var tableHeadDataList = ["商品", "地区", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 	// 决定地区列和商品列的显示方式和顺序
-	if (productNum === 1 && regionNum > 1){
+	if (regionNum === 1 && productNum > 1){
 		tableHeadDataList = ["地区", "商品", "1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"];
 	}
 	// 表头行
